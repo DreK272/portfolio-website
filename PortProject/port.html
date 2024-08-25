@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diondre's Portfolio Website</title>
+    <link rel="stylesheet" href="port.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="port.js"></script>
+    <link rel="icon" type="image/jpg" href="./imgss/me2.jpg">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo-holder">
+            <div class="logo">D</div>
+            <div class="logo-text">Portfolio Website</div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Skills</a>
+                </li>
+                <li>
+                    <a href="#">Projects</a>
+                </li>
+                <li>
+                    <a href="#" class="button">Contact Me</a>
+                </li>
+            </ul>
+            <a href="#" class="mobile-toggle" onClick="toggleMobileMenu()">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14" />
+                </svg>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero container">
+            <div class="hero-blue">
+                <div>
+                    <h1><small>Hi I'm</small>
+                        Diondre Davis</h1>
+                    <p>
+                        I am an aspiring developer based in Texas, hoping to break into the world of tech. I have a
+                        passion for learning new things, especially
+                        when it comes to technology. When I'm not learning code, you'll find me playing video games,
+                        exploring the outdoors, spending quality time with family and friends, and expanding my
+                        knowledge on many different topics. I believe in learning something new daily and
+                        living in the moment, never taking anything for granted.<span>I love spreading joy and making
+                            others
+                            laugh through my own experiences. On this journey through tech, I hope to make lifelong
+                            connections that I can grow and learn from every day.</span>
+                    </p>
+                    <div class="call-to-action">
+                        <a href="#" class="button black">
+                            View Resume
+                        </a>
+                        <a href="#" class="button white">
+                            Contact Me
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#">
+                            <img src="imgss/github.png" alt="Github" width="48px">
+                        </a>
+                        <a href="#">
+                            <img src="imgss/linkedin.png" alt="LinkedIn" width="48px">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-yellow">
+                <img src="imgss/Screenshot_20230409_085956_Photos-removebg-preview.png" alt="Diondre Davis"
+                    width="100%">
+            </div>
+        </section>
+        <section class=" logos container">
+            <div class="marquee">
+                <div class="track">
+                    <img src="imgss/html.png" alt="HTML" width="128">
+                    <img src="imgss/css.png" alt="CSS" width="128">
+                    <img src="imgss/javascript.png" alt="JS" width="128">
+                    <img src="imgss/vscode.png" alt="VSCODE" width="128">
+                    <img src="imgss/react.png" alt="REACT">
+                    <img src="imgss/html.png" alt="HTML" width="128">
+                    <img src="imgss/css.png" alt="CSS" width="128">
+                    <img src="imgss/javascript.png" alt="JS" width="128">
+                    <img src="imgss/vscode.png" alt="VSCODE" width="128">
+                    <img src="imgss/react.png" alt="REACT">
+                    <img src="imgss/html.png" alt="HTML" width="128">
+                    <img src="imgss/css.png" alt="CSS" width="128">
+                    <img src="imgss/javascript.png" alt="JS" width="128">
+                    <img src="imgss/vscode.png" alt="VSCODE" width="128">
+                    <img src="imgss/react.png" alt="REACT">
+                </div>
+            </div>
+        </section>
+        <section class="skills container">
+            <h2>
+                <small>About Me</small>
+                Skills
+            </h2>
+            <div class="holder-blue">
+                <div class="left-column">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Responsive Web Design</li>
+                    </ul>
+                </div>
+                <div class="right-column">
+                    <h3>A bit about me</h3>
+                    <p>
+                        Hi I'm Diondre Davis, I am an aspiring developer based in Texas, hoping to break into the world
+                        of tech. I have a
+                        passion for learning new things, especially
+                        when it comes to technology. When I'm not learning code, you'll find me playing video games,
+                        exploring the outdoors, spending quality time with family and friends, and expanding my
+                        knowledge on many different topics. I believe in learning something new daily and
+                        living in the moment, never taking anything for granted.<span>I love spreading joy and making
+                            others
+                            laugh through my own experiences. On this journey through tech, I hope to make lifelong
+                            connections that I can grow and learn from every day.</span>
+                    </p>
+                    <p>
+                        I'm currently working on getting my certification for Frontend Web Design, in which this
+                        Portfolio is apart of that process! I've also finished a few other projects focused on Frontend
+                        Design, including some involving React and Redux.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="work-experience container">
+            <h2>
+                <small>Recent</small>
+                Work Experience
+            </h2>
+            <div class="jobs">
+                <article></article>
+            </div>
+        </section>
+        <section class="bento">
+            <h2>
+                <small>Previous</small>
+                Completed Projects
+            </h2>
+            <div class="bento-grid">
+                <div class="bento-item"></div>
+                <div class="bento-item"></div>
+                <div class="bento-item"></div>
+                <div class="bento-item"></div>
+                <div class="bento-item"></div>
+                <div class="bento-item"></div>
+            </div>
+        </section> -->
+    </main>
+</body>
+
+</html>
