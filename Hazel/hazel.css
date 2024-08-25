@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Forum', sans-serif;
+}
+
+.hero {
+    background-color: #f08e80;
+    min-height: 90vh;
+    color: white;
+    display: inline-block;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 24px 32px;
+}
+
+.navbar .links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 16px;
+    font-size: 1.2rem;
+}
+
+.navbar p {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.navbar .contact {
+    background-color: white;
+    color: #f08e80;
+    padding: 16px 24px;
+    text-decoration: none;
+}
+
+.navbar .contact:hover {
+    opacity: 0.8;
+}
+
+.contenthero {
+    padding: 0 15%;
+}
+
+.tag {
+    font-size: 3rem;
+    color: white;
+    letter-spacing: 2px;
+    padding: 32px 0;
+}
+
+.twocol {
+    font-size: 2rem;
+}
+
+.twocol>p {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.twocol .skills {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0;
+    list-style: none;
+}
+
+.twocol .skills li {
+    width: 50%;
+    float: left;
+    font-size: 1.25rem;
+    margin: 8px 0;
+}
+
+.blog {
+    background-color: white;
+    padding: 64px 0;
+}
+
+.blogcontent {
+    padding: 0 15%;
+}
+
+.twocol .blogpost {
+    width: 50%;
+    float: left;
+}
+
+.blogheading {
+    font-size: 1.5rem;
+}
+
+.blogtext {
+    font-size: 1rem;
+}
+
+.blogpost .blogdate {
+    font-size: 0.9rem;
+    color: grey;
+    margin-bottom: 32px;
+}
+
+.blogpost p {
+    margin: 8px 0;
+}
+
+.blogpost {
+    margin-top: 24px;
+}
+
+.events-section {
+    background-color: #fdf0e6;
+    padding: 64px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.events-content {
+    padding: 0 15%;
+}
+
+.events-card {
+    width: 50%;
+    float: left;
+    margin-top: 24px;
+}
+
+.events-card p {
+    margin: 8px 0;
+}
+
+.event-title {
+    font-size: 1.5rem;
+}
+
+.event-location {
+    font-size: 1rem;
+}
+
+.events-card .event-date {
+    font-size: 0.9rem;
+    color: grey;
+    margin-bottom: 32px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 64px;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+footer img {
+    height: 2rem;
+    width: 2rem;
+    margin: 0 8px;
+}
+
+footer img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1000px) {
+
+    .contenthero,
+    .blogcontent,
+    .events-content {
+        padding: 0 5%;
+    }
+}
+
+@media only screen and (max-width:750px) {
+    .tag {
+        font-size: 3.5rem;
+    }
+
+    .twocol>p {
+        width: 100%;
+    }
+
+    .twocol .skills {
+        width: 100%;
+    }
+
+    .twocol .blogpost {
+        width: 100%;
+    }
+
+    .section-heading {
+        font-size: 2.5rem;
+        margin-bottom: 0;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .tag {
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    .links {
+        display: none;
+    }
+}
